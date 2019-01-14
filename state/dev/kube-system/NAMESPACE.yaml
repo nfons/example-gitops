@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2018-12-01T02:52:06Z"
+  name: kube-system
+  resourceVersion: "12"
+  selfLink: /api/v1/namespaces/kube-system
+  uid: 1695f7aa-f514-11e8-a1f9-025000000001
+spec:
+  finalizers:
+  - kubernetes
