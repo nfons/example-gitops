@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2019-01-16T16:24:40Z"
+  name: myns
+  resourceVersion: "74548"
+  selfLink: /api/v1/namespaces/myns
+  uid: 398ead30-19ab-11e9-a6f5-025000000001
+spec:
+  finalizers:
+  - kubernetes
