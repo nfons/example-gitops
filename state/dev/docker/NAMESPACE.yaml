@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2018-12-01T02:53:01Z"
+  name: docker
+  resourceVersion: "392"
+  selfLink: /api/v1/namespaces/docker
+  uid: 37940225-f514-11e8-a1f9-025000000001
+spec:
+  finalizers:
+  - kubernetes
