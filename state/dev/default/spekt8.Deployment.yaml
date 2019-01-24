@@ -4,23 +4,21 @@ metadata:
   annotations:
     deployment.kubernetes.io/revision: "1"
     kubectl.kubernetes.io/last-applied-configuration: |
-      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"labels":{"app":"nginx"},"name":"nginx-deployment","namespace":"default"},"spec":{"replicas":3,"selector":{"matchLabels":{"app":"nginx"}},"template":{"metadata":{"labels":{"app":"nginx"}},"spec":{"containers":[{"image":"nginx:1.7.9","name":"nginx","ports":[{"containerPort":80}]}]}}}}
-  creationTimestamp: "2019-01-24T00:42:54Z"
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"spekt8","namespace":"default"},"spec":{"replicas":1,"selector":{"matchLabels":{"component":"spekt8"}},"template":{"metadata":{"labels":{"component":"spekt8"}},"spec":{"containers":[{"image":"elliotxkim/spekt8","name":"spekt8","ports":[{"containerPort":3000}]}]}}}}
+  creationTimestamp: "2018-12-01T03:12:36Z"
   generation: 1
-  labels:
-    app: nginx
-  name: nginx-deployment
+  name: spekt8
   namespace: default
-  resourceVersion: "252370"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/nginx-deployment
-  uid: fc5a9dc7-1f70-11e9-b786-42010a800256
+  resourceVersion: "2909"
+  selfLink: /apis/apps/v1/namespaces/default/deployments/spekt8
+  uid: f3bb9d7e-f516-11e8-a1f9-025000000001
 spec:
   progressDeadlineSeconds: 600
-  replicas: 3
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app: nginx
+      component: spekt8
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -30,14 +28,14 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: nginx
+        component: spekt8
     spec:
       containers:
-      - image: nginx:1.7.9
-        imagePullPolicy: IfNotPresent
-        name: nginx
+      - image: elliotxkim/spekt8
+        imagePullPolicy: Always
+        name: spekt8
         ports:
-        - containerPort: 80
+        - containerPort: 3000
           protocol: TCP
         resources: {}
         terminationMessagePath: /dev/termination-log
