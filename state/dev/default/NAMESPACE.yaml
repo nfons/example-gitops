@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  creationTimestamp: "2018-12-01T02:52:05Z"
+  creationTimestamp: "2019-01-23T21:32:43Z"
   name: default
-  resourceVersion: "4"
+  resourceVersion: "24"
   selfLink: /api/v1/namespaces/default
-  uid: 161ec6dc-f514-11e8-a1f9-025000000001
+  uid: 6b3f111d-1f56-11e9-b786-42010a800256
 spec:
   finalizers:
   - kubernetes
