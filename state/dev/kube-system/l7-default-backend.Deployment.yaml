@@ -14,7 +14,7 @@ metadata:
     kubernetes.io/name: GLBC
   name: l7-default-backend
   namespace: kube-system
-  resourceVersion: "57453"
+  resourceVersion: "69489"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/l7-default-backend
   uid: 77ce90df-1f56-11e9-b786-42010a800256
 spec:

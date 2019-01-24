@@ -14,7 +14,7 @@ metadata:
     version: v3.2.0
   name: fluentd-gcp-v3.2.0
   namespace: kube-system
-  resourceVersion: "57447"
+  resourceVersion: "69516"
   selfLink: /apis/apps/v1/namespaces/kube-system/daemonsets/fluentd-gcp-v3.2.0
   uid: 78770728-1f56-11e9-b786-42010a800256
 spec:
