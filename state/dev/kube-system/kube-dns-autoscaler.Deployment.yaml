@@ -13,7 +13,7 @@ metadata:
     kubernetes.io/cluster-service: "true"
   name: kube-dns-autoscaler
   namespace: kube-system
-  resourceVersion: "253639"
+  resourceVersion: "509818"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/kube-dns-autoscaler
   uid: 78348180-1f56-11e9-b786-42010a800256
 spec:

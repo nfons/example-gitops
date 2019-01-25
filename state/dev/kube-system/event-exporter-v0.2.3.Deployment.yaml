@@ -14,7 +14,7 @@ metadata:
     version: v0.2.3
   name: event-exporter-v0.2.3
   namespace: kube-system
-  resourceVersion: "253642"
+  resourceVersion: "509806"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/event-exporter-v0.2.3
   uid: 785a0a6a-1f56-11e9-b786-42010a800256
 spec:
