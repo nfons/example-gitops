@@ -11,7 +11,7 @@ metadata:
     app: nginx
   name: nginx-deployment
   namespace: default
-  resourceVersion: "526587"
+  resourceVersion: "607195"
   selfLink: /apis/apps/v1/namespaces/default/deployments/nginx-deployment
   uid: fc5a9dc7-1f70-11e9-b786-42010a800256
 spec:
