@@ -14,7 +14,7 @@ metadata:
     version: v1.6.0-beta.1
   name: heapster-v1.6.0-beta.1
   namespace: kube-system
-  resourceVersion: "510267"
+  resourceVersion: "706275"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/heapster-v1.6.0-beta.1
   uid: 77fe80cf-1f56-11e9-b786-42010a800256
 spec:
