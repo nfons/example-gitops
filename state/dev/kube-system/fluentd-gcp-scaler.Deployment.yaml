@@ -13,7 +13,7 @@ metadata:
     version: v0.5.0
   name: fluentd-gcp-scaler
   namespace: kube-system
-  resourceVersion: "706273"
+  resourceVersion: "706679"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/fluentd-gcp-scaler
   uid: 7df02451-1f56-11e9-b786-42010a800256
 spec:
