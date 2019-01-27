@@ -11,7 +11,7 @@ metadata:
     app: deckhand
   name: deckhand
   namespace: default
-  resourceVersion: "607180"
+  resourceVersion: "863821"
   selfLink: /apis/apps/v1/namespaces/default/deployments/deckhand
   uid: 968b17b5-1f6f-11e9-b786-42010a800256
 spec:
