@@ -14,7 +14,7 @@ metadata:
     version: v0.2.1
   name: metrics-server-v0.2.1
   namespace: kube-system
-  resourceVersion: "982616"
+  resourceVersion: "1236567"
   selfLink: /apis/apps/v1/namespaces/kube-system/deployments/metrics-server-v0.2.1
   uid: 792966cf-1f56-11e9-b786-42010a800256
 spec:
